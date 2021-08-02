@@ -1,10 +1,13 @@
 {
-  "name": "@vt/counter",
+  "name": "@vijayt/counter",
   "version": "1.0.0",
   "main": "lib/index.js",
   "repository": "git@github.com:vijayst/react-package-boilerplate.git",
   "author": "Vijay T <vijayst@gmail.com>",
   "license": "MIT",
+  "files": [
+    "lib"
+  ],
   "devDependencies": {
     "@babel/core": "^7.14.8",
     "@babel/preset-env": "^7.14.9",
