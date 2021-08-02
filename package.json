@@ -1,0 +1,18 @@
+{
+  "name": "@vt/counter",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "repository": "git@github.com:vijayst/react-package-boilerplate.git",
+  "author": "Vijay T <vijayst@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^17.0.15",
+    "react": "^17.0.2",
+    "rollup": "^2.55.1",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.3.5"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  }
+}
