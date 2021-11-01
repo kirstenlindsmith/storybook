@@ -35,7 +35,7 @@
     "test": "jest --verbose --watch",
     "storybook": "start-storybook",
     "build-storybook": "build-storybook",
-    "deploy-storybook": "storybook-to-ghpages"
+    "deploy-storybook": "storybook-to-ghpages -- --out=docs"
   },
   "dependencies": {
     "@emotion/react": "^11.5.0",
