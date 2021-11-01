@@ -31,7 +31,7 @@
     "build": "rollup -c",
     "test": "jest --verbose --watch",
     "storybook": "start-storybook",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook -o docs-build -s ./src/components/Icons"
   },
   "dependencies": {
     "@emotion/react": "^11.5.0",
