@@ -17,7 +17,7 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.6.2
         with:
-          GITHUB_TOKEN: ${{ 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 }}
+          GITHUB_TOKEN: ${{ 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 }}
           BRANCH: main # The branch the action should deploy to.
           FOLDER: docs-build # The folder that the build-storybook script generates files.
           CLEAN: true # Automatically remove deleted files from the deploy branch
